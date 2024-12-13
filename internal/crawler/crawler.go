@@ -22,7 +22,7 @@ type Crawler struct {
 func NewCrawler() *Crawler{
 	outputDir := "locations"
     if err := os.MkdirAll(outputDir, 0755); err != nil {
-        utils.PrintError("failed to create locations directory: %v", err)
+        utils.PrintError("%v", err)
     }
 	
 	c := colly.NewCollector(
@@ -40,6 +40,7 @@ func NewCrawler() *Crawler{
 
 func (c *Crawler) CrawlUsersByLocation(location string, userChannel chan<- *models.User) {
     page := 1
+    maxPages := 10
     var crawlWg sync.WaitGroup
     var callbackWg sync.WaitGroup
     hasUsers := false
@@ -76,7 +77,7 @@ func (c *Crawler) CrawlUsersByLocation(location string, userChannel chan<- *mode
         crawlWg.Done()
     })
 
-    for {
+    for page <= maxPages {
         hasUsers = false
         crawlWg.Add(1)
         searchURL := fmt.Sprintf("https://github.com/search?q=location:%s&type=users&p=%d", 
@@ -85,7 +86,7 @@ func (c *Crawler) CrawlUsersByLocation(location string, userChannel chan<- *mode
         
         err := c.collector.Visit(searchURL)
         if err != nil {
-            utils.PrintError("Error visiting page: %v", err)
+            utils.PrintError("%v", err)
             crawlWg.Done()
             break
         }
@@ -124,12 +125,12 @@ func (c *Crawler) ProcessUserLanguageStats(user *models.User, processedChannel c
 
     err := collector.Visit(profileURL)
     if err != nil {
-        utils.PrintError("Error visiting profile page for %s: %v", user.Username, err)
+        utils.PrintError("%v", err)
         return
     }
 
     if user.Location == "" {
-        utils.PrintInfo("Skipping %s - Missing location", user.Username)
+        utils.PrintInfo("%s - Missing location - Skipped", user.Username)
         return 
     }
 
@@ -160,11 +161,11 @@ func (c *Crawler) ProcessUserLanguageStats(user *models.User, processedChannel c
         reposURL := fmt.Sprintf("https://github.com/%s?page=%d&tab=repositories", user.Username, page)
         err := collector.Visit(reposURL)
         if err != nil {
-            utils.PrintError("Error visiting %s page %d: %v", user.Username, page, err)
+            utils.PrintError("%v", err)
             break
         }
         page++
-        time.Sleep(1 * time.Second)
+        time.Sleep(1 * time.Second) 
     }
 
     if totalRepos > 0 {

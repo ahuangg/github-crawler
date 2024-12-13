@@ -1,6 +1,8 @@
 package main
 
 import (
+	"bufio"
+	"os"
 	"sync"
 
 	"github.com/ahuangg/gh-crawler/internal/crawler"
@@ -11,8 +13,30 @@ import (
 
 func main() {
     c := crawler.NewCrawler()
-    locations := []string{"San Francisco", "New York", "London"}
-    maxConcurrentProcessing := 3
+    
+    file, err := os.Open("locations.txt")
+    if err != nil {
+        utils.PrintError(err.Error())
+        return
+    }
+    defer file.Close()
+
+    var locations []string
+    scanner := bufio.NewScanner(file)
+    for scanner.Scan() {
+        locations = append(locations, scanner.Text())
+    }
+    if err := scanner.Err(); err != nil {
+        utils.PrintError(err.Error())
+        return
+    }
+
+    maxConcurrentProcessing := 25
+
+    csvWriter, err := writer.NewCSVWriter("locations", "data")
+    if err != nil {
+        utils.PrintError(err.Error())
+    }
 
     for _, location := range locations {
         userChannel := make(chan *models.User)
@@ -24,12 +48,6 @@ func main() {
         go func(loc string) {
             c.CrawlUsersByLocation(loc, userChannel)
         }(location)
-
-        csvWriter, err := writer.NewCSVWriter("locations", location)
-        if err != nil {
-            utils.PrintError(err.Error())
-            continue
-        }
 
         processingWg := sync.WaitGroup{}
         for i := 0; i < maxConcurrentProcessing; i++ {
@@ -52,9 +70,9 @@ func main() {
             defer wg.Done()
             for user := range processedChannel {
                 if err := csvWriter.WriteUser(user); err != nil {
-                    utils.PrintError("Failed to write user to CSV: %v", err)
+                    utils.PrintError("%v", err)
                 } else {
-                    utils.PrintUserWritten("%s - %s", user.Location, user.Username)
+                    utils.PrintUserWritten("%s - %s", user.Username, user.Location)
                 }
             }
         }()

@@ -34,12 +34,15 @@ func (w *CSVWriter) WriteUser(user *models.User) error {
     w.mutex.Lock()
     defer w.mutex.Unlock()
 
-    langJSON, err := json.Marshal(user.LanguageStats)
+    record := []string{user.Username, user.Location}
+
+    langStats, err := json.Marshal(user.LanguageStats)
     if err != nil {
         return err
     }
 
-    record := []string{user.Username, user.Location, string(langJSON)}
+    record = append(record, string(langStats))
+
     if err := w.writer.Write(record); err != nil {
         return err
     }
