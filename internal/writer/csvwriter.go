@@ -21,7 +21,7 @@ func NewCSVWriter(outputDir, location string) (*CSVWriter, error) {
         return nil, err
     }
 
-    file, err := os.Create(outputDir + "/" + location + "_users.csv")
+    file, err := os.Create(outputDir + "/" + location + ".csv")
     if err != nil {
         return nil, err
     }

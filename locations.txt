@@ -1,489 +1,438 @@
-Silicon Valley
+# San Francisco Bay Area
 San Francisco
-New York City
-Boston
-Toronto
-Vancouver
-Montreal
-Mexico City
-Guadalajara
-Monterrey
-London
-Cambridge
-Manchester
-Berlin
-Munich
-Hamburg
-Amsterdam
-Eindhoven
-Rotterdam
-Bangalore
-Hyderabad
-Pune
-Delhi
-Chennai
-Mumbai
-Beijing
-Shanghai
-Shenzhen
-Singapore
-Nairobi
-Lagos
-Cape Town
-Dubai
-Hanoi
-Ho Chi Minh City
-Jakarta
-Medellin
-Bogota
-Austin
-Atlanta
-Charlotte
-Dallas
-Denver
-Huntsville
-Miami
-Portland
-Raleigh
-San Diego
+Silicon Valley
 San Jose
-Seattle
-Washington DC
-Tel Aviv
-Los Angeles
-Tokyo
-Seoul
-Abu Dhabi
-Zurich
-Paris
-Chicago
-Houston
-Phoenix
-Philadelphia
-San Antonio
-Indianapolis
-Columbus
-Fort Worth
-Jacksonville
-Detroit
-Nashville
-Memphis
-Oklahoma City
-Las Vegas
-Louisville
-Baltimore
-Milwaukee
-Albuquerque
-Tucson
-Fresno
-Sacramento
-Mesa
-Kansas City
-Long Beach
-Colorado Springs
-Virginia Beach
-Omaha
+Mountain View
+Santa Clara
+Sunnyvale
 Oakland
-Minneapolis
-Tulsa
-Arlington
-New Orleans
-Wichita
-Cleveland
-Tampa
-Bakersfield
-Aurora
+Berkeley
+Palo Alto
+Redwood City
+Sacramento
+Fresno
+San Mateo
+Fremont
+Hayward
+Livermore
+Pleasanton
+Concord
+Santa Rosa
+# Greater Los Angeles
+Los Angeles
+Long Beach
 Anaheim
-Honolulu
 Santa Ana
-Riverside
-Corpus Christi
-Lexington
-Stockton
-St. Louis
-Saint Paul
-Henderson
-Pittsburgh
-Cincinnati
-Anchorage
-Greensboro
-Plano
-Newark
-Lincoln
-Orlando
 Irvine
-Toledo
-Jersey City
+Riverside
+San Bernardino
+Ontario
+Pomona
+Pasadena
+Glendale
+Burbank
+Santa Monica
+Torrance
+Garden Grove
+Corona
+Fullerton
+Orange
+Costa Mesa
+# San Diego Area
+San Diego
 Chula Vista
-Durham
-Fort Wayne
-St. Petersburg
-Laredo
-Buffalo
-Madison
-Lubbock
+Oceanside
+Escondido
+Carlsbad
+Vista
+San Marcos
+Encinitas
+# Portland Metro
+Portland
+Salem
+Eugene
+Bend
+Hillsboro
+Beaverton
+Gresham
+# Seattle Metro
+Seattle
+Tacoma
+Bellevue
+Everett
+Renton
+Federal Way
+Kent
+Auburn
+# Central Valley California
+Sacramento
+Stockton
+Modesto
+Fresno
+Bakersfield
+Visalia
+Merced
+# Nevada
+Las Vegas
+Henderson
+North Las Vegas
+Reno
+Sparks
+# Phoenix Metro
+Phoenix
+Mesa
 Chandler
 Scottsdale
-Reno
-Glendale
-Winston-Salem
-North Las Vegas
 Gilbert
-Chesapeake
-Irving
-Hialeah
-Garland
-Fremont
-Baton Rouge
-Richmond
-Boise
-San Bernardino
-Spokane
-Des Moines
-Modesto
-Birmingham
-Tacoma
-Fontana
-Rochester
-Oxnard
-Moreno Valley
-Fayetteville
 Glendale
-Yonkers
-Huntington Beach
-Montgomery
-Amarillo
-Little Rock
-Akron
-Augusta
-Grand Rapids
-Shreveport
-Salt Lake City
-Frisco
-Worcester
-Tallahassee
-McKinney
-Providence
-Fort Lauderdale
-Newport News
 Tempe
-Cape Coral
-Oceanside
-Garden Grove
-Sioux Falls
-Ontario
-Chattanooga
-Fort Collins
-Pembroke Pines
-Port St. Lucie
-Rancho Cucamonga
-Elk Grove
-Corona
-Eugene
-Salem
-Lancaster
-Salinas
-Springfield
-Palmdale
-Rockford
-Pomona
-Hayward
+Peoria
 Surprise
-Cary
-Sunnyvale
-Macon
-Savannah
-Roseville
+# Colorado Front Range
+Denver
+Aurora
+Lakewood
 Thornton
+Arvada
+Westminster
+Boulder
+Fort Collins
+Colorado Springs
+Pueblo
+# New Mexico
+Albuquerque
+Santa Fe
+Las Cruces
+Rio Rancho
+# Utah
+Salt Lake City
+West Valley City
+Provo
+Orem
+Sandy
+West Jordan
+# Idaho
+Boise
+Nampa
+Meridian
+Idaho Falls
+# Dallas-Fort Worth Metroplex
+Dallas
+Fort Worth
+Arlington
+Plano
+Irving
+Garland
+McKinney
+Frisco
+Richardson
+Lewisville
+Denton
+# Greater Houston
+Houston
+The Woodlands
+Sugar Land
+Pearland
+League City
 Pasadena
-Bellevue
-Killeen
-Escondido
+Baytown
+# Greater Austin
+Austin
+Round Rock
+Cedar Park
+Georgetown
+San Marcos
+# Greater San Antonio
+San Antonio
+New Braunfels
+Schertz
+# El Paso Region
+El Paso
+Ciudad Juarez
+# Oklahoma
+Oklahoma City
+Tulsa
+Norman
+Broken Arrow
+Edmond
+Lawton
+# Arkansas
+Little Rock
+Fayetteville
+Springdale
+Rogers
+# Kansas City Metro
+Kansas City
+Overland Park
+Olathe
+Independence
+Lee's Summit
+# Missouri
+St. Louis
+Springfield
+Columbia
+Jefferson City
+# Twin Cities Metro
+Minneapolis
+St. Paul
+Rochester
+Duluth
+Bloomington
+Eden Prairie
+# Chicagoland
+Chicago
+Aurora
 Naperville
 Joliet
-Paterson
-Torrance
-Bridgeport
-McAllen
-Mesquite
-Syracuse
-Midland
-Murfreesboro
-Miramar
-Dayton
-Fullerton
-Olathe
-Orange
-Warren
-Waco
-West Valley City
-Cedar Rapids
-Miami Gardens
-Columbia
-Stamford
-Hartford
-Sterling Heights
-Kent
-New Haven
-Denton
-Santa Clara
-Victorville
-Abilene
-Athens
-Vallejo
-Allentown
-Norman
-Beaumont
-Independence
-Ann Arbor
-Berkeley
-Peoria
-Provo
-El Monte
-Lansing
-Fargo
-Downey
-Costa Mesa
-Wilmington
-Arvada
-Inglewood
-Carlsbad
-Westminster
-Odessa
-Manchester
 Elgin
-West Jordan
-Round Rock
-Clearwater
-Waterbury
-Gresham
-Fairfield
-Billings
-Lowell
-San Buenaventura
-Pueblo
-High Point
-West Covina
-Murrieta
-Cambridge
-Antioch
-Temecula
-Norwalk
-Centennial
-Everett
-Palm Bay
-Wichita Falls
-Green Bay
-Daly City
-Burbank
-Richardson
-Pompano Beach
-North Charleston
-Broken Arrow
-Boulder
-West Palm Beach
-Santa Maria
-El Cajon
-Davenport
-Rialto
-Las Cruces
-San Mateo
-Lewisville
-South Bend
-Lakeland
-Erie
-Tyler
-Pearland
-College Station
-Kenosha
-Sandy Springs
-Clovis
-Flint
-Roanoke
-Albany
-Jurupa Valley
-Compton
-San Angelo
-Hillsboro
-Lawton
-Renton
-Vista
-Davie
-Greeley
-Mission Viejo
-Portsmouth
-Dearborn
-South Gate
-Tuscaloosa
-Livonia
-New Bedford
-Vacaville
-Brockton
-Roswell
-Beaverton
-Quincy
-Sparks
-Yakima
-Lee's Summit
-Federal Way
-Carson
-Santa Monica
-Hesperia
-Allen
-Rio Rancho
-Yuma
-Orem
-Lynn
-Redding
-Spokane Valley
-League City
-Lawrence
-Santa Barbara
-Plantation
-Sandy
-Sunrise
-Longmont
-Boca Raton
-San Marcos
-Greenville
 Waukegan
-Fall River
-Chico
-Newton
-San Leandro
-Reading
-Fort Smith
-Newport Beach
-Asheville
-Nashua
-Edmond
-Whittier
-Nampa
-Bloomington
-Deltona
-Hawthorne
-Duluth
-Carmel
-Suffolk
-Clifton
-Citrus Heights
-Livermore
-Tracy
-Alhambra
-Kirkland
-Trenton
-Ogden
-Hoover
-Cicero
-Fishers
-Sugar Land
-Danbury
-Meridian
-Indio
-Concord
-Menifee
-Champaign
-Buena Park
-Troy
-O'Fallon
-Johns Creek
-Bellingham
-Westland
-Bloomington
-Sioux City
-Warwick
-Hemet
-Longview
-Farmington Hills
-Bend
-Lakewood
-Merced
-Mission
-Chino
-Redwood City
-Edinburg
-Cranston
-Parma
-New Rochelle
-Lake Forest
-Napa
-Hammond
-Fayetteville
-Avondale
-Somerville
-Palm Coast
-Bryan
-Gary
-Largo
-Brooklyn Park
-Tustin
-Racine
-Deerfield Beach
-Lynchburg
-Mountain View
-Medford
-Bellflower
-Melbourne
-St. Joseph
-Camden
-St. George
-Kennewick
-Baldwin Park
-Chino Hills
-Alameda
-Albany
+Schaumburg
 Arlington Heights
-Scranton
 Evanston
+# Wisconsin
+Milwaukee
+Madison
+Green Bay
+Kenosha
+Racine
+Appleton
+# Michigan
+Detroit
+Grand Rapids
+Warren
+Sterling Heights
+Ann Arbor
+Lansing
+Flint
 Kalamazoo
-Sao Paulo
-Rio de Janeiro
-Buenos Aires
-Santiago
-Lima
-Bogota
-Medellin
-Mexico City
-Guadalajara
-Monterrey
+Dearborn
+# Northeast Ohio
+Cleveland
+Akron
+Canton
+Toledo
+Youngstown
+# Southwest Ohio
+Cincinnati
+Dayton
+Hamilton
+Springfield
+# Central Ohio
+Columbus
+Dublin
+Westerville
+Delaware
+# Indiana
+Indianapolis
+Fort Wayne
+Carmel
+Fishers
+Bloomington
+South Bend
+Hammond
+Gary
+# Pennsylvania
+Pittsburgh
+Erie
+Allentown
+Reading
+Bethlehem
+Scranton
+# Greater Philadelphia
+Philadelphia
+Camden
+Wilmington
+Newark
+Trenton
+# New York Metro
+New York City
+Long Island
+Jersey City
+Newark
+Yonkers
+White Plains
+New Rochelle
+Stamford
+Bridgeport
+New Haven
+# New England
+Boston
+Cambridge
+Worcester
+Springfield
+Lowell
+Providence
+Hartford
+# Maine
+Portland
+Augusta
+Bangor
+Lewiston
+# Maryland
+Baltimore
+Annapolis
+Columbia
+Frederick
+Rockville
+Silver Spring
+# DC Metro
+Washington DC
+Alexandria
+Arlington
+Fairfax
+Reston
+Bethesda
+# Virginia
+Richmond
+Virginia Beach
+Norfolk
+Newport News
+Hampton
+Chesapeake
+Portsmouth
+# North Carolina
+Raleigh
+Durham
+Chapel Hill
+Cary
+Greensboro
+Winston-Salem
+High Point
+Charlotte
+Asheville
+# Metro Atlanta
+Atlanta
+Marietta
+Alpharetta
+Roswell
+Sandy Springs
+Johns Creek
+# Tennessee
+Nashville
+Memphis
+Knoxville
+Chattanooga
+Clarksville
+Murfreesboro
+# Florida
+Jacksonville
+Orlando
+Tampa
+St. Petersburg
+Clearwater
+Sarasota
+Fort Myers
+Cape Coral
+Gainesville
+Tallahassee
+# South Florida
+Miami
+Fort Lauderdale
+West Palm Beach
+Boca Raton
+Pompano Beach
+Hollywood
+Hialeah
+Coral Springs
+Miramar
+# Louisiana
+New Orleans
+Baton Rouge
+Lafayette
+Lake Charles
+Shreveport
+# Eastern Canada
 Toronto
-Vancouver
-Montreal
+Mississauga
+Hamilton
+London
 Ottawa
+Montreal
+Quebec City
+Halifax
+# British Columbia
+Vancouver
+Victoria
+Surrey
+Burnaby
+Richmond
+# Western Canada
 Calgary
 Edmonton
 Winnipeg
-Quebec City
-Halifax
-Victoria
+Regina
+Saskatoon
+# Central Mexico
+Mexico City
+Guadalajara
+Monterrey
+Tijuana
+Ciudad Juarez
+Puebla
+Queretaro
+Leon
+# Southeast Brazil
+Sao Paulo
+Rio de Janeiro
+Belo Horizonte
+Salvador
+Brasilia
+Recife
+Fortaleza
+# Argentina
+Buenos Aires
+Cordoba
+Rosario
+Mendoza
+# Chile
+Santiago
+Valparaiso
+Concepcion
+# Peru
+Lima
+Arequipa
+Trujillo
+# Colombia
+Bogota
+Medellin
+Cali
+Barranquilla
+Cartagena
+# Venezuela
+Caracas
+Maracaibo
+Valencia
+# United Kingdom
 London
 Manchester
 Birmingham
-Edinburgh
-Glasgow
 Leeds
 Liverpool
-Bristol
 Sheffield
 Newcastle
+Bristol
+Edinburgh
+Glasgow
+Cardiff
+Belfast
+# Ireland
 Dublin
 Cork
 Galway
+Limerick
+# Netherlands
 Amsterdam
 Rotterdam
 The Hague
 Utrecht
 Eindhoven
-Berlin
-Munich
-Hamburg
-Frankfurt
-Cologne
-Stuttgart
-Dusseldorf
-Dresden
-Leipzig
-Hannover
+Groningen
+# Belgium
+Brussels
+Antwerp
+Ghent
+Bruges
+# France
 Paris
 Lyon
 Marseille
@@ -493,250 +442,235 @@ Lille
 Nice
 Nantes
 Strasbourg
-Montpellier
-Madrid
-Barcelona
-Valencia
-Seville
-Zaragoza
-Malaga
-Bilbao
-Alicante
-Cordoba
-Valladolid
-Lisbon
-Porto
-Rome
-Milan
-Naples
-Turin
-Palermo
-Genoa
-Bologna
-Florence
-Bari
-Catania
+# Germany
+Berlin
+Hamburg
+Munich
+Frankfurt
+Cologne
+Stuttgart
+Dusseldorf
+Dresden
+Leipzig
+Hannover
+# Austria
 Vienna
 Graz
 Linz
 Salzburg
 Innsbruck
+# Switzerland
 Zurich
 Geneva
 Basel
 Lausanne
 Bern
+# Italy
+Milan
+Rome
+Naples
+Turin
+Florence
+Bologna
+Venice
+Verona
+# Spain
+Madrid
+Barcelona
+Valencia
+Seville
+Malaga
+Bilbao
+# Portugal
+Lisbon
+Porto
+Braga
+Coimbra
+# Sweden
 Stockholm
 Gothenburg
 Malmo
 Uppsala
-Vasteras
+# Norway
 Oslo
 Bergen
 Trondheim
 Stavanger
-Kristiansand
+# Denmark
 Copenhagen
 Aarhus
 Odense
 Aalborg
-Esbjerg
+# Finland
 Helsinki
 Espoo
 Tampere
 Vantaa
-Oulu
-Reykjavik
+Turku
+# Poland
 Warsaw
 Krakow
 Lodz
 Wroclaw
 Poznan
+# Czech Republic
 Prague
 Brno
 Ostrava
-Plzen
-Liberec
+Pilsen
+# Hungary
 Budapest
 Debrecen
 Szeged
 Miskolc
-Pecs
-Bratislava
-Kosice
-Presov
-Nitra
-Zilina
-Ljubljana
-Maribor
-Celje
-Kranj
-Velenje
-Zagreb
-Split
-Rijeka
-Osijek
-Zadar
-Belgrade
-Novi Sad
-Nis
-Kragujevac
-Subotica
-Sarajevo
-Banja Luka
-Tuzla
-Zenica
-Mostar
-Skopje
-Bitola
-Kumanovo
-Prilep
-Tetovo
-Tirana
-Durres
-Vlore
-Elbasan
-Shkoder
-Sofia
-Plovdiv
-Varna
-Burgas
-Ruse
+# Romania
 Bucharest
 Cluj-Napoca
 Timisoara
 Iasi
 Constanta
+# Bulgaria
+Sofia
+Plovdiv
+Varna
+Burgas
+# Greece
 Athens
 Thessaloniki
 Patras
 Heraklion
-Larissa
+# Turkey
 Istanbul
 Ankara
 Izmir
 Bursa
 Antalya
+# Russia
 Moscow
-Saint Petersburg
+St. Petersburg
 Novosibirsk
 Yekaterinburg
-Nizhny Novgorod
-Kyiv
+Kazan
+# Ukraine
+Kiev
 Kharkiv
-Odesa
+Odessa
 Dnipro
 Lviv
-Minsk
-Gomel
-Mogilev
-Vitebsk
-Grodno
-Tallinn
-Tartu
-Narva
-Parnu
-Kohtla-Jarve
-Riga
-Daugavpils
-Liepaja
-Jelgava
-Jurmala
-Vilnius
-Kaunas
-Klaipeda
-Siauliai
-Panevezys
+# Israel
 Tel Aviv
 Jerusalem
 Haifa
-Rishon LeZion
-Petah Tikva
+Beer Sheva
+# Arabian Peninsula
 Dubai
 Abu Dhabi
 Sharjah
-Ajman
-Ras Al Khaimah
 Doha
-Al Rayyan
-Umm Salal
-Al Khor
-Al Wakrah
 Manama
-Riffa
-Muharraq
-Hamad Town
-A'ali
 Kuwait City
-Al Ahmadi
-Hawalli
-Al Farwaniyah
-Al Jahra
-Muscat
-Salalah
-Sohar
-Nizwa
-Sur
 Riyadh
 Jeddah
-Mecca
-Medina
-Dammam
+# Egypt
 Cairo
 Alexandria
 Giza
-Shubra El Kheima
-Taipei
-Hsinchu
-Taichung
-Tainan
-Kaohsiung
+# Nigeria
+Lagos
+Abuja
+Kano
+Ibadan
+# Kenya
+Nairobi
+Mombasa
+Kisumu
+# South Africa
+Johannesburg
+Cape Town
+Durban
+Pretoria
+# India
+Mumbai
+Delhi
+Bangalore
+Hyderabad
+Chennai
+Kolkata
+Pune
+Ahmedabad
+Jaipur
+# China
+Beijing
+Shanghai
+Guangzhou
+Shenzhen
 Chengdu
 Hangzhou
-Guangzhou
 Wuhan
 Xi'an
 Nanjing
-Chongqing
 Tianjin
-Suzhou
-Dalian
-Qingdao
-Xiamen
-Zhengzhou
-Hefei
-Changsha
-Foshan
-Dongguan
+# Japan
+Tokyo
+Yokohama
+Osaka
+Nagoya
+Sapporo
+Fukuoka
+# South Korea
+Seoul
+Busan
+Incheon
+Daegu
+Daejeon
+# Taiwan
+Taipei
+Kaohsiung
+Taichung
+Tainan
+Hsinchu
+# Special Administrative Regions
+Hong Kong
+Macau
+# Singapore
+Singapore
+# Thailand
+Bangkok
+Chiang Mai
+Phuket
+Pattaya
+# Malaysia
 Kuala Lumpur
 Penang
 Johor Bahru
+Malacca
+# Indonesia
+Jakarta
+Surabaya
+Bandung
+Medan
+# Philippines
 Manila
 Cebu
-Bangkok
-Phuket
-Chiang Mai
-Bengaluru
-Pune
-Gurgaon
-Noida
-Thiruvananthapuram
-Kochi
-Coimbatore
-Ahmedabad
-Kolkata
-Chandigarh
-Indore
-Jaipur
-Bhubaneswar
-Melbourne
+Davao
+Quezon City
+# Vietnam
+Ho Chi Minh City
+Hanoi
+Da Nang
+Hai Phong
+# Australia
 Sydney
+Melbourne
 Brisbane
 Perth
 Adelaide
 Gold Coast
 Canberra
+Newcastle
+# New Zealand
 Auckland
 Wellington
 Christchurch
 Hamilton
+Dunedin

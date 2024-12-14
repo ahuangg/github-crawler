@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"os"
+	"strings"
 	"sync"
 
 	"github.com/ahuangg/gh-crawler/internal/crawler"
@@ -31,14 +32,32 @@ func main() {
         return
     }
 
-    maxConcurrentProcessing := 25
-
-    csvWriter, err := writer.NewCSVWriter("locations", "data")
-    if err != nil {
-        utils.PrintError(err.Error())
-    }
+    maxConcurrentProcessing := 5
+    var currentWriter *writer.CSVWriter
 
     for _, location := range locations {
+        if strings.HasPrefix(location, "#") {
+            if currentWriter != nil {
+                if err := currentWriter.Close(); err != nil {
+                    utils.PrintError("%v", err)
+                }
+            }
+            
+            regionName := strings.TrimSpace(strings.TrimPrefix(location, "#"))
+            newWriter, err := writer.NewCSVWriter("locations", regionName)
+            if err != nil {
+                utils.PrintError("%v", err)
+                continue
+            }
+            currentWriter = newWriter
+            utils.PrintInfo("Created new file for region: %s", regionName)
+            continue
+        }
+
+        if currentWriter == nil {
+            continue
+        }
+
         userChannel := make(chan *models.User)
         processedChannel := make(chan *models.User)
         var wg sync.WaitGroup
@@ -69,7 +88,7 @@ func main() {
         go func() {
             defer wg.Done()
             for user := range processedChannel {
-                if err := csvWriter.WriteUser(user); err != nil {
+                if err := currentWriter.WriteUser(user); err != nil {
                     utils.PrintError("%v", err)
                 } else {
                     utils.PrintUserWritten("%s - %s", user.Username, user.Location)
@@ -78,9 +97,11 @@ func main() {
         }()
 
         wg.Wait()
+    }
 
-        if err := csvWriter.Close(); err != nil {
-            utils.PrintError("%s - %v", location, err)
+    if currentWriter != nil {
+        if err := currentWriter.Close(); err != nil {
+            utils.PrintError("%v", err)
         }
     }
 

@@ -1,11 +1,12 @@
 package crawler
 
 import (
+	"crypto/rand"
 	"fmt"
-	"sort"
-
+	"math/big"
 	"net/url"
 	"os"
+	"sort"
 	"sync"
 	"time"
 
@@ -39,8 +40,6 @@ func NewCrawler() *Crawler{
 }
 
 func (c *Crawler) CrawlUsersByLocation(location string, userChannel chan<- *models.User) {
-    page := 1
-    maxPages := 10
     var crawlWg sync.WaitGroup
     var callbackWg sync.WaitGroup
     hasUsers := false
@@ -77,12 +76,12 @@ func (c *Crawler) CrawlUsersByLocation(location string, userChannel chan<- *mode
         crawlWg.Done()
     })
 
-    for page <= maxPages {
-        hasUsers = false
+    visitedPages := make(map[int]bool)
+    page := 1
+    for {
         crawlWg.Add(1)
         searchURL := fmt.Sprintf("https://github.com/search?q=location:%s&type=users&p=%d", 
             url.QueryEscape(location), page)
-        utils.PrintInfo("Searching %s", searchURL)
         
         err := c.collector.Visit(searchURL)
         if err != nil {
@@ -96,8 +95,66 @@ func (c *Crawler) CrawlUsersByLocation(location string, userChannel chan<- *mode
         if !hasUsers {
             break
         }
-
+        visitedPages[page] = true
         page++
+    }
+
+    totalPages := len(visitedPages)
+    if totalPages == 0 {
+        close(userChannel)
+        return
+    }
+
+    var pagesToVisit int
+    switch {
+    case totalPages <= 5:
+        pagesToVisit = totalPages 
+    case totalPages <= 20:
+        pagesToVisit = 10
+    case totalPages <= 50:
+        pagesToVisit = 15
+    default:
+        pagesToVisit = 20 
+    }
+
+    if pagesToVisit < 3 && totalPages >= 3 {
+        pagesToVisit = 3
+    }
+
+    if pagesToVisit > totalPages {
+        pagesToVisit = totalPages
+    }
+
+    availablePages := make([]int, 0, totalPages)
+    for p := range visitedPages {
+        availablePages = append(availablePages, p)
+    }
+
+    for i := len(availablePages) - 1; i > 0; i-- {
+        max := big.NewInt(int64(i + 1))
+        randNum, err := rand.Int(rand.Reader, max)
+        if err != nil {
+            utils.PrintError("Error generating random number: %v", err)
+            continue
+        }
+        j := randNum.Int64()
+        availablePages[i], availablePages[j] = availablePages[j], availablePages[i]
+    }
+
+    for i := 0; i < pagesToVisit && i < len(availablePages); i++ {
+        crawlWg.Add(1)
+        searchURL := fmt.Sprintf("https://github.com/search?q=location:%s&type=users&p=%d", 
+            url.QueryEscape(location), availablePages[i])
+        utils.PrintInfo("Searching %s", searchURL)
+        
+        err := c.collector.Visit(searchURL)
+        if err != nil {
+            utils.PrintError("%v", err)
+            crawlWg.Done()
+            break
+        }
+        
+        crawlWg.Wait()
     }
 
     callbackWg.Wait()
@@ -130,7 +187,7 @@ func (c *Crawler) ProcessUserLanguageStats(user *models.User, processedChannel c
     }
 
     if user.Location == "" {
-        utils.PrintInfo("%s - Missing location - Skipped", user.Username)
+        utils.PrintInfo("%s - Missing Location - Skipped", user.Username)
         return 
     }
 
@@ -172,7 +229,7 @@ func (c *Crawler) ProcessUserLanguageStats(user *models.User, processedChannel c
         type langStat struct {
             Language   string
             Percentage float64
-        }
+        } 
         stats := make([]langStat, 0)
 
         for lang, count := range languageCounts {
@@ -188,8 +245,12 @@ func (c *Crawler) ProcessUserLanguageStats(user *models.User, processedChannel c
         for _, stat := range stats {
             user.LanguageStats[stat.Language] = stat.Percentage
         }
-    }
 
-    utils.PrintUserProcessed("%s", user.Username)
-    processedChannel <- user
+        if len(user.LanguageStats) > 0 {
+            utils.PrintUserProcessed("%s", user.Username)
+            processedChannel <- user
+        } else {
+            utils.PrintInfo("%s - No Languages Found - Skipped", user.Username)
+        }
+    } 
 }
