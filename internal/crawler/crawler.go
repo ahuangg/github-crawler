@@ -191,18 +191,21 @@ func (c *Crawler) ProcessUserLanguageStats(user *models.User, processedChannel c
         return 
     }
 
-    languageCounts := make(map[string]int)
-    totalRepos := 0
+    languageWeights := make(map[string]float64)
+    totalWeight := 0.0
     page := 1
     hasNextPage := true
+    repoCount := 0
 
     collector.OnHTML("div[id^='user-repositories-list'] div.col-10", func(e *colly.HTMLElement) {
         isFork := e.ChildText("span.Label") == "Fork"
         if !isFork {
             language := e.ChildText("span[itemprop='programmingLanguage']")
             if language != "" {
-                languageCounts[language]++
-                totalRepos++
+                weight := 1.0 / float64(repoCount + 1)
+                languageWeights[language] += weight
+                totalWeight += weight
+                repoCount++
             }
         }
     })
@@ -225,15 +228,15 @@ func (c *Crawler) ProcessUserLanguageStats(user *models.User, processedChannel c
         time.Sleep(1 * time.Second) 
     }
 
-    if totalRepos > 0 {
+    if totalWeight > 0 {
         type langStat struct {
             Language   string
             Percentage float64
-        } 
+        }
         stats := make([]langStat, 0)
 
-        for lang, count := range languageCounts {
-            percentage := (float64(count) / float64(totalRepos)) * 100
+        for lang, weight := range languageWeights {
+            percentage := (weight / totalWeight) * 100
             stats = append(stats, langStat{lang, percentage})
         }
 
@@ -252,5 +255,5 @@ func (c *Crawler) ProcessUserLanguageStats(user *models.User, processedChannel c
         } else {
             utils.PrintInfo("%s - No Languages Found - Skipped", user.Username)
         }
-    } 
+    }
 }
