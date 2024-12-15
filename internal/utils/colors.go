@@ -16,25 +16,25 @@ const (
 )
 
 func PrintError(format string, a ...interface{}) {
-    fmt.Printf(ColorRed+"[%s] ERROR: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("15:04:05")}, a...)...)
+    fmt.Printf(ColorRed+"%s ERROR: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("2006-01-02 15:04:05")}, a...)...)
 }
 
 func PrintSuccess(format string, a ...interface{}) {
-    fmt.Printf(ColorGreen+"[%s] SUCCESS: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("15:04:05")}, a...)...)
+    fmt.Printf(ColorGreen+"%s SUCCESS: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("2006-01-02 15:04:05")}, a...)...)
 }
 
 func PrintUserWritten(format string, a ...interface{}) {
-    fmt.Printf(ColorBlue+"[%s] USER WRITTEN: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("15:04:05")}, a...)...)
+    fmt.Printf(ColorBlue+"%s USER WRITTEN: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("2006-01-02 15:04:05")}, a...)...)
 }
 
 func PrintInfo(format string, a ...interface{}) {
-    fmt.Printf(ColorYellow+"[%s] INFO: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("15:04:05")}, a...)...)
+    fmt.Printf(ColorYellow+"%s INFO: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("2006-01-02 15:04:05")}, a...)...)
 }
 
 func PrintUserRetrieved(format string, a ...interface{}) {
-    fmt.Printf(ColorPurple+"[%s] USER RETRIEVED: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("15:04:05")}, a...)...)
+    fmt.Printf(ColorPurple+"%s USER RETRIEVED: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("2006-01-02 15:04:05")}, a...)...)
 }
 
 func PrintUserProcessed(format string, a ...interface{}) {
-    fmt.Printf(ColorCyan+"[%s] USER PROCESSED: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("15:04:05")}, a...)...)
+    fmt.Printf(ColorCyan+"%s USER PROCESSED: "+format+ColorReset+"\n", append([]interface{}{time.Now().Format("2006-01-02 15:04:05")}, a...)...)
 }

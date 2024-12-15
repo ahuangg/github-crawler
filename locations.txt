@@ -1,676 +1,854 @@
-# San Francisco Bay Area
-San Francisco
-Silicon Valley
-San Jose
-Mountain View
-Santa Clara
-Sunnyvale
-Oakland
-Berkeley
-Palo Alto
-Redwood City
-Sacramento
-Fresno
-San Mateo
-Fremont
-Hayward
-Livermore
-Pleasanton
-Concord
-Santa Rosa
-# Greater Los Angeles
-Los Angeles
-Long Beach
-Anaheim
-Santa Ana
-Irvine
-Riverside
-San Bernardino
-Ontario
-Pomona
-Pasadena
-Glendale
-Burbank
-Santa Monica
-Torrance
-Garden Grove
-Corona
-Fullerton
-Orange
-Costa Mesa
-# San Diego Area
-San Diego
-Chula Vista
-Oceanside
-Escondido
-Carlsbad
-Vista
-San Marcos
-Encinitas
+# San Francisco Bay Area & Silicon Valley Core
+San Francisco 255
+Silicon Valley 220
+San Jose 180
+Mountain View 150
+Palo Alto 145
+Menlo Park 140
+Cupertino 135
+Berkeley 140
+Oakland 125
+Sunnyvale 120
+Santa Clara 115
+Redwood City 95
+Foster City 90
+San Mateo 80
+South San Francisco 75
+Fremont 75
+Hayward 65
+Livermore 60
+Pleasanton 55
+Concord 50
+Santa Rosa 45
+San Rafael 45
+Novato 40
+Emeryville 85
+San Bruno 70
+Millbrae 65
+Burlingame 60
+San Carlos 55
+Belmont 50
+Union City 45
+Newark 40
+Dublin 55
+Walnut Creek 50
+Alameda 45
+# Greater Los Angeles Tech Region
+Los Angeles 210
+Irvine 145
+Santa Monica 125
+El Segundo 120
+Culver City 115
+Pasadena 115
+Glendale 95
+Burbank 85
+Long Beach 80
+Calabasas 75
+Woodland Hills 70
+Sherman Oaks 65
+Playa Vista 95
+Marina del Rey 85
+Manhattan Beach 75
+Hermosa Beach 70
+Redondo Beach 65
+Newport Beach 85
+Costa Mesa 75
+Aliso Viejo 70
+Tustin 65
+Lake Forest 60
+Mission Viejo 55
+Laguna Beach 50
+Huntington Beach 75
+Anaheim 70
+Santa Ana 65
+Riverside 60
+San Bernardino 55
+Ontario 50
+Rancho Cucamonga 45
+Pomona 45
+Torrance 70
+Carson 45
+Gardena 40
+Hawthorne 55
+Inglewood 45
+West Hollywood 65
+Beverly Hills 60
+Brentwood 55
+Westwood 50
+Studio City 45
+# San Diego Tech Region
+San Diego 165
+La Jolla 145
+Sorrento Valley 135
+Carlsbad 120
+Oceanside 85
+Encinitas 80
+Del Mar 75
+Solana Beach 70
+Escondido 65
+San Marcos 60
+Vista 55
+Poway 75
+Rancho Bernardo 70
+Mira Mesa 65
+UTC 80
+Mission Valley 75
+Chula Vista 70
+National City 45
+Imperial Beach 40
+# Seattle-Tacoma-Bellevue Metro
+Seattle 245
+Bellevue 185
+Redmond 175
+Kirkland 165
+Sammamish 125
+Issaquah 115
+Renton 105
+Kent 85
+Auburn 75
+Federal Way 70
+Tacoma 95
+Olympia 85
+Everett 95
+Bothell 115
+Woodinville 105
+Mercer Island 95
+Bainbridge Island 85
+Edmonds 75
+Lynnwood 70
+Puyallup 65
+Lakewood 60
+Burien 55
+SeaTac 50
+Tukwila 65
+Snoqualmie 60
 # Portland Metro
-Portland
-Salem
-Eugene
-Bend
-Hillsboro
-Beaverton
-Gresham
-# Seattle Metro
-Seattle
-Tacoma
-Bellevue
-Everett
-Renton
-Federal Way
-Kent
-Auburn
-# Central Valley California
-Sacramento
-Stockton
-Modesto
-Fresno
-Bakersfield
-Visalia
-Merced
-# Nevada
-Las Vegas
-Henderson
-North Las Vegas
-Reno
-Sparks
+Portland 175
+Hillsboro 145
+Beaverton 135
+Tigard 95
+Tualatin 85
+Lake Oswego 80
+Oregon City 70
+Gresham 65
+Vancouver WA 95
+Camas 85
+Salem 75
+Eugene 85
+Bend 80
+Corvallis 95
+Medford 65
+# Denver-Boulder Tech Corridor
+Denver 185
+Boulder 175
+Broomfield 145
+Louisville 135
+Superior 125
+Westminster 115
+Arvada 95
+Golden 85
+Lakewood 95
+Littleton 85
+Centennial 95
+Greenwood Village 115
+Denver Tech Center 135
+Englewood 95
+Aurora 85
+Thornton 75
+Fort Collins 115
+Colorado Springs 125
+Pueblo 65
 # Phoenix Metro
-Phoenix
-Mesa
-Chandler
-Scottsdale
-Gilbert
-Glendale
-Tempe
-Peoria
-Surprise
-# Colorado Front Range
-Denver
-Aurora
-Lakewood
-Thornton
-Arvada
-Westminster
-Boulder
-Fort Collins
-Colorado Springs
-Pueblo
-# New Mexico
-Albuquerque
-Santa Fe
-Las Cruces
-Rio Rancho
-# Utah
-Salt Lake City
-West Valley City
-Provo
-Orem
-Sandy
-West Jordan
-# Idaho
-Boise
-Nampa
-Meridian
-Idaho Falls
+Phoenix 155
+Scottsdale 145
+Tempe 135
+Mesa 115
+Chandler 125
+Gilbert 105
+Glendale 95
+Peoria 85
+Surprise 75
+Cave Creek 65
+Fountain Hills 60
+Queen Creek 55
+Apache Junction 50
+Buckeye 45
+Goodyear 70
+Avondale 65
+Paradise Valley 75
+# Salt Lake City Region
+Salt Lake City 145
+South Salt Lake 95
+Murray 85
+Millcreek 75
+Holladay 70
+Cottonwood Heights 85
+Sandy 80
+Draper 95
+South Jordan 85
+West Jordan 75
+West Valley City 70
+Lehi 105
+American Fork 85
+Pleasant Grove 75
+Orem 95
+Provo 115
+Park City 85
+# Austin Metro
+Austin 215
+Round Rock 125
+Cedar Park 105
+Georgetown 95
+Pflugerville 85
+Leander 75
+Kyle 65
+San Marcos 85
+New Braunfels 75
+Bastrop 65
+Lockhart 55
+Taylor 65
+Liberty Hill 55
+Dripping Springs 65
+Wimberley 55
+Buda 65
 # Dallas-Fort Worth Metroplex
-Dallas
-Fort Worth
-Arlington
-Plano
-Irving
-Garland
-McKinney
-Frisco
-Richardson
-Lewisville
-Denton
-# Greater Houston
-Houston
-The Woodlands
-Sugar Land
-Pearland
-League City
-Pasadena
-Baytown
-# Greater Austin
-Austin
-Round Rock
-Cedar Park
-Georgetown
-San Marcos
-# Greater San Antonio
-San Antonio
-New Braunfels
-Schertz
-# El Paso Region
-El Paso
-Ciudad Juarez
-# Oklahoma
-Oklahoma City
-Tulsa
-Norman
-Broken Arrow
-Edmond
-Lawton
-# Arkansas
-Little Rock
-Fayetteville
-Springdale
-Rogers
-# Kansas City Metro
-Kansas City
-Overland Park
-Olathe
-Independence
-Lee's Summit
-# Missouri
-St. Louis
-Springfield
-Columbia
-Jefferson City
-# Twin Cities Metro
-Minneapolis
-St. Paul
-Rochester
-Duluth
-Bloomington
-Eden Prairie
-# Chicagoland
-Chicago
-Aurora
-Naperville
-Joliet
-Elgin
-Waukegan
-Schaumburg
-Arlington Heights
-Evanston
-# Wisconsin
-Milwaukee
-Madison
-Green Bay
-Kenosha
-Racine
-Appleton
-# Michigan
-Detroit
-Grand Rapids
-Warren
-Sterling Heights
-Ann Arbor
-Lansing
-Flint
-Kalamazoo
-Dearborn
-# Northeast Ohio
-Cleveland
-Akron
-Canton
-Toledo
-Youngstown
-# Southwest Ohio
-Cincinnati
-Dayton
-Hamilton
-Springfield
-# Central Ohio
-Columbus
-Dublin
-Westerville
-Delaware
-# Indiana
-Indianapolis
-Fort Wayne
-Carmel
-Fishers
-Bloomington
-South Bend
-Hammond
-Gary
-# Pennsylvania
-Pittsburgh
-Erie
-Allentown
-Reading
-Bethlehem
-Scranton
-# Greater Philadelphia
-Philadelphia
-Camden
-Wilmington
-Newark
-Trenton
+Dallas 185
+Plano 165
+Richardson 155
+Frisco 145
+McKinney 125
+Allen 115
+Irving 135
+Las Colinas 125
+Addison 115
+Carrollton 105
+Lewisville 95
+Flower Mound 85
+Southlake 95
+Grapevine 85
+Arlington 105
+Grand Prairie 85
+Fort Worth 125
+North Richland Hills 75
+Keller 65
+Denton 95
+The Colony 85
+Little Elm 75
+Prosper 85
+Celina 75
+Coppell 95
+DeSoto 65
+Duncanville 60
+Mesquite 70
+Garland 85
+Rockwall 75
+Rowlett 70
+Wylie 65
+Sachse 60
+Murphy 65
+Parker 60
+# Houston Metro
+Houston 175
+The Woodlands 135
+Spring 115
+Tomball 95
+Cypress 85
+Katy 95
+Sugar Land 115
+Missouri City 85
+Pearland 95
+League City 85
+Clear Lake 95
+Webster 75
+Friendswood 70
+Pasadena 75
+Baytown 65
+Humble 75
+Kingwood 70
+Conroe 85
+Montgomery 75
+Magnolia 65
+# Chicago Metro
+Chicago 195
+Evanston 145
+Skokie 115
+Lincolnwood 95
+Niles 85
+Park Ridge 95
+Des Plaines 85
+Mount Prospect 75
+Arlington Heights 95
+Palatine 85
+Schaumburg 115
+Hoffman Estates 95
+Elk Grove Village 105
+Rolling Meadows 85
+Buffalo Grove 95
+Wheeling 85
+Northbrook 105
+Glenview 95
+Wilmette 85
+Winnetka 75
+Highland Park 85
+Deerfield 95
+Lake Forest 85
+Naperville 135
+Lisle 115
+Downers Grove 105
+Oak Brook 115
+Lombard 95
+Glen Ellyn 85
+Wheaton 95
+Aurora 105
+Bolingbrook 85
+Romeoville 75
+Joliet 85
+Orland Park 95
+Oak Lawn 75
+Oak Park 95
+River Forest 85
+Forest Park 75
+# Boston-Cambridge Innovation Hub
+Boston 235
+Cambridge 215
+Somerville 165
+Medford 125
+Malden 105
+Everett 95
+Chelsea 85
+Revere 75
+Winthrop 65
+Lynn 75
+Salem 85
+Beverly 75
+Peabody 65
+Danvers 60
+Woburn 115
+Burlington 125
+Bedford 115
+Lexington 135
+Waltham 145
+Watertown 125
+Newton 145
+Brookline 135
+Needham 115
+Wellesley 105
+Natick 95
+Framingham 105
+Marlborough 95
+Westborough 85
+Worcester 95
+Lowell 105
+Lawrence 85
+Haverhill 75
+Andover 105
+North Andover 95
+Reading 85
+Wakefield 75
+Quincy 105
+Braintree 85
+Weymouth 75
+Hingham 85
 # New York Metro
-New York City
-Long Island
-Jersey City
-Newark
-Yonkers
-White Plains
-New Rochelle
-Stamford
-Bridgeport
-New Haven
-# New England
-Boston
-Cambridge
-Worcester
-Springfield
-Lowell
-Providence
-Hartford
-# Maine
-Portland
-Augusta
-Bangor
-Lewiston
-# Maryland
-Baltimore
-Annapolis
-Columbia
-Frederick
-Rockville
-Silver Spring
-# DC Metro
-Washington DC
-Alexandria
-Arlington
-Fairfax
-Reston
-Bethesda
-# Virginia
-Richmond
-Virginia Beach
-Norfolk
-Newport News
-Hampton
-Chesapeake
-Portsmouth
-# North Carolina
-Raleigh
-Durham
-Chapel Hill
-Cary
-Greensboro
-Winston-Salem
-High Point
-Charlotte
-Asheville
-# Metro Atlanta
-Atlanta
-Marietta
-Alpharetta
-Roswell
-Sandy Springs
-Johns Creek
-# Tennessee
-Nashville
-Memphis
-Knoxville
-Chattanooga
-Clarksville
-Murfreesboro
-# Florida
-Jacksonville
-Orlando
-Tampa
-St. Petersburg
-Clearwater
-Sarasota
-Fort Myers
-Cape Coral
-Gainesville
-Tallahassee
-# South Florida
-Miami
-Fort Lauderdale
-West Palm Beach
-Boca Raton
-Pompano Beach
-Hollywood
-Hialeah
-Coral Springs
-Miramar
-# Louisiana
-New Orleans
-Baton Rouge
-Lafayette
-Lake Charles
-Shreveport
-# Eastern Canada
-Toronto
-Mississauga
-Hamilton
-London
-Ottawa
-Montreal
-Quebec City
-Halifax
-# British Columbia
-Vancouver
-Victoria
-Surrey
-Burnaby
-Richmond
-# Western Canada
-Calgary
-Edmonton
-Winnipeg
-Regina
-Saskatoon
-# Central Mexico
-Mexico City
-Guadalajara
-Monterrey
-Tijuana
-Ciudad Juarez
-Puebla
-Queretaro
-Leon
-# Southeast Brazil
-Sao Paulo
-Rio de Janeiro
-Belo Horizonte
-Salvador
-Brasilia
-Recife
-Fortaleza
-# Argentina
-Buenos Aires
-Cordoba
-Rosario
-Mendoza
-# Chile
-Santiago
-Valparaiso
-Concepcion
-# Peru
-Lima
-Arequipa
-Trujillo
-# Colombia
-Bogota
-Medellin
-Cali
-Barranquilla
-Cartagena
-# Venezuela
-Caracas
-Maracaibo
-Valencia
-# United Kingdom
-London
-Manchester
-Birmingham
-Leeds
-Liverpool
-Sheffield
-Newcastle
-Bristol
-Edinburgh
-Glasgow
-Cardiff
-Belfast
-# Ireland
-Dublin
-Cork
-Galway
-Limerick
-# Netherlands
-Amsterdam
-Rotterdam
-The Hague
-Utrecht
-Eindhoven
-Groningen
-# Belgium
-Brussels
-Antwerp
-Ghent
-Bruges
-# France
-Paris
-Lyon
-Marseille
-Toulouse
-Bordeaux
-Lille
-Nice
-Nantes
-Strasbourg
-# Germany
-Berlin
-Hamburg
-Munich
-Frankfurt
-Cologne
-Stuttgart
-Dusseldorf
-Dresden
-Leipzig
-Hannover
-# Austria
-Vienna
-Graz
-Linz
-Salzburg
-Innsbruck
-# Switzerland
-Zurich
-Geneva
-Basel
-Lausanne
-Bern
-# Italy
-Milan
-Rome
-Naples
-Turin
-Florence
-Bologna
-Venice
-Verona
-# Spain
-Madrid
-Barcelona
-Valencia
-Seville
-Malaga
-Bilbao
-# Portugal
-Lisbon
-Porto
-Braga
-Coimbra
-# Sweden
-Stockholm
-Gothenburg
-Malmo
-Uppsala
-# Norway
-Oslo
-Bergen
-Trondheim
-Stavanger
-# Denmark
-Copenhagen
-Aarhus
-Odense
-Aalborg
-# Finland
-Helsinki
-Espoo
-Tampere
-Vantaa
-Turku
-# Poland
-Warsaw
-Krakow
-Lodz
-Wroclaw
-Poznan
-# Czech Republic
-Prague
-Brno
-Ostrava
-Pilsen
-# Hungary
-Budapest
-Debrecen
-Szeged
-Miskolc
-# Romania
-Bucharest
-Cluj-Napoca
-Timisoara
-Iasi
-Constanta
-# Bulgaria
-Sofia
-Plovdiv
-Varna
-Burgas
-# Greece
-Athens
-Thessaloniki
-Patras
-Heraklion
-# Turkey
-Istanbul
-Ankara
-Izmir
-Bursa
-Antalya
-# Russia
-Moscow
-St. Petersburg
-Novosibirsk
-Yekaterinburg
-Kazan
-# Ukraine
-Kiev
-Kharkiv
-Odessa
-Dnipro
-Lviv
-# Israel
-Tel Aviv
-Jerusalem
-Haifa
-Beer Sheva
-# Arabian Peninsula
-Dubai
-Abu Dhabi
-Sharjah
-Doha
-Manama
-Kuwait City
-Riyadh
-Jeddah
-# Egypt
-Cairo
-Alexandria
-Giza
-# Nigeria
-Lagos
-Abuja
-Kano
-Ibadan
-# Kenya
-Nairobi
-Mombasa
-Kisumu
-# South Africa
-Johannesburg
-Cape Town
-Durban
-Pretoria
-# India
-Mumbai
-Delhi
-Bangalore
-Hyderabad
-Chennai
-Kolkata
-Pune
-Ahmedabad
-Jaipur
-# China
-Beijing
-Shanghai
-Guangzhou
-Shenzhen
-Chengdu
-Hangzhou
-Wuhan
-Xi'an
-Nanjing
-Tianjin
-# Japan
-Tokyo
-Yokohama
-Osaka
-Nagoya
-Sapporo
-Fukuoka
-# South Korea
-Seoul
-Busan
-Incheon
-Daegu
-Daejeon
-# Taiwan
-Taipei
-Kaohsiung
-Taichung
-Tainan
-Hsinchu
-# Special Administrative Regions
-Hong Kong
-Macau
-# Singapore
-Singapore
-# Thailand
-Bangkok
-Chiang Mai
-Phuket
-Pattaya
-# Malaysia
-Kuala Lumpur
-Penang
-Johor Bahru
-Malacca
-# Indonesia
-Jakarta
-Surabaya
-Bandung
-Medan
-# Philippines
-Manila
-Cebu
-Davao
-Quezon City
-# Vietnam
-Ho Chi Minh City
-Hanoi
-Da Nang
-Hai Phong
-# Australia
-Sydney
-Melbourne
-Brisbane
-Perth
-Adelaide
-Gold Coast
-Canberra
-Newcastle
-# New Zealand
-Auckland
-Wellington
-Christchurch
-Hamilton
-Dunedin
+New York City 245
+Manhattan 235
+Brooklyn 195
+Queens 175
+Bronx 145
+Staten Island 125
+Jersey City 175
+Hoboken 155
+Weehawken 125
+Union City 105
+North Bergen 95
+Secaucus 115
+Newark 135
+Elizabeth 105
+Edison 115
+New Brunswick 125
+Princeton 145
+Plainsboro 125
+West Windsor 115
+East Brunswick 105
+Woodbridge 95
+Parsippany 115
+Morristown 125
+Summit 115
+New Providence 105
+Berkeley Heights 115
+Long Island City 165
+Flushing 125
+Forest Hills 115
+Garden City 105
+Melville 115
+Hauppauge 105
+Syosset 95
+Hicksville 85
+Westbury 75
+Great Neck 95
+Port Washington 85
+Manhasset 75
+White Plains 125
+Tarrytown 115
+Yonkers 105
+New Rochelle 95
+Stamford 145
+Greenwich 135
+Norwalk 125
+Westport 115
+Fairfield 105
+Bridgeport 95
+New Haven 115
+# Washington DC Metro
+Washington DC 215
+Arlington 195
+Alexandria 175
+McLean 165
+Tysons 175
+Reston 165
+Herndon 155
+Sterling 135
+Ashburn 145
+Leesburg 125
+Chantilly 135
+Fairfax 145
+Vienna 135
+Falls Church 125
+Bethesda 165
+Rockville 155
+Gaithersburg 145
+Germantown 135
+Silver Spring 145
+Chevy Chase 135
+Potomac 125
+Columbia 135
+Baltimore 145
+Annapolis 125
+Frederick 115
+# Philadelphia Metro
+Philadelphia 175
+King of Prussia 145
+Conshohocken 135
+Blue Bell 125
+Fort Washington 115
+Horsham 105
+Malvern 125
+Wayne 115
+Radnor 125
+Media 105
+West Chester 115
+Exton 105
+Plymouth Meeting 115
+Bala Cynwyd 125
+Cherry Hill 105
+Mount Laurel 95
+Moorestown 85
+Princeton 135
+Camden 85
+Wilmington 115
+Newark DE 105
+# Research Triangle
+Raleigh 165
+Durham 155
+Chapel Hill 145
+Cary 135
+Morrisville 125
+Research Triangle Park 145
+Wake Forest 105
+Apex 95
+Holly Springs 85
+Garner 75
+Hillsborough 85
+Carrboro 95
+# Atlanta Metro
+Atlanta 185
+Sandy Springs 155
+Dunwoody 145
+Brookhaven 135
+Buckhead 145
+Midtown 135
+Perimeter Center 145
+Alpharetta 155
+Roswell 135
+Johns Creek 125
+Marietta 135
+Smyrna 115
+Vinings 105
+Kennesaw 115
+Woodstock 95
+Canton 85
+Cumming 95
+Duluth 115
+Norcross 105
+Peachtree Corners 115
+Lawrenceville 105
+Suwanee 95
+Buford 85
+Gainesville 95
+# Miami Tech Hub
+Miami 145
+Miami Beach 135
+Coral Gables 125
+Coconut Grove 115
+Brickell 125
+Downtown Miami 135
+Wynwood 125
+Design District 115
+Aventura 105
+Sunny Isles Beach 95
+North Miami 85
+Doral 115
+Fort Lauderdale 135
+Hollywood 115
+Plantation 105
+Sunrise 95
+Boca Raton 135
+Delray Beach 115
+Boynton Beach 95
+West Palm Beach 115
+Jupiter 105
+# Greater Toronto Area
+Toronto 225
+North York 175
+Scarborough 155
+Etobicoke 145
+Mississauga 165
+Brampton 145
+Vaughan 135
+Richmond Hill 145
+Markham 155
+Aurora 125
+Newmarket 115
+Oakville 135
+Burlington 125
+Hamilton 115
+Waterloo 145
+Kitchener 135
+Cambridge ON 125
+Guelph 115
+London ON 125
+Ottawa 155
+Kanata 135
+Gatineau 115
+# Vancouver Metro
+Vancouver 195
+North Vancouver 155
+West Vancouver 145
+Burnaby 165
+Richmond 145
+Surrey 135
+New Westminster 125
+Coquitlam 115
+Port Coquitlam 105
+Port Moody 115
+Delta 105
+Langley 95
+White Rock 85
+Victoria 125
+Nanaimo 95
+Kelowna 105
+Whistler 85
+# Montreal Metro
+Montreal 175
+Laval 145
+Longueuil 135
+Brossard 125
+Saint-Laurent 135
+Dorval 115
+Pointe-Claire 105
+Kirkland 95
+Westmount 115
+Mount Royal 105
+Outremont 95
+Quebec City 135
+Gatineau 115
+Sherbrooke 105
+# UK Tech Hubs
+London 235
+Shoreditch 215
+Canary Wharf 195
+Camden 175
+Islington 165
+Hackney 155
+Richmond 145
+Croydon 135
+Reading 155
+Oxford 175
+Cambridge 185
+Milton Keynes 145
+Brighton 155
+Bristol 165
+Bath 145
+Cardiff 135
+Manchester 175
+Salford 145
+Liverpool 135
+Leeds 155
+Sheffield 135
+Newcastle upon Tyne 145
+Edinburgh 165
+Glasgow 155
+Aberdeen 135
+Belfast 145
+Birmingham 155
+Nottingham 145
+Leicester 135
+# German Tech Centers
+Berlin 195
+Potsdam 145
+Hamburg 175
+Munich 185
+Frankfurt 175
+Cologne 165
+Düsseldorf 155
+Stuttgart 165
+Karlsruhe 155
+Heidelberg 145
+Dresden 155
+Leipzig 145
+Nuremberg 135
+Hannover 145
+Dortmund 135
+Essen 125
+Bremen 135
+Bonn 145
+Aachen 135
+Mannheim 125
+Freiburg 135
+Münster 125
+Bielefeld 115
+Wolfsburg 125
+# French Tech Hubs
+Paris 215
+La Défense 195
+Boulogne-Billancourt 165
+Issy-les-Moulineaux 155
+Saint-Denis 145
+Nanterre 135
+Versailles 145
+Lyon 165
+Grenoble 155
+Sophia Antipolis 145
+Nice 135
+Marseille 145
+Toulouse 155
+Bordeaux 145
+Nantes 135
+Rennes 145
+Lille 135
+Strasbourg 145
+Montpellier 135
+# Nordic Tech Centers
+Stockholm 175
+Kista 155
+Uppsala 145
+Malmö 155
+Gothenburg 145
+Helsingborg 125
+Copenhagen 165
+Aarhus 145
+Oslo 165
+Helsinki 165
+Espoo 155
+Tampere 145
+Oulu 135
+Reykjavik 125
+# Benelux Tech Region
+Amsterdam 185
+Rotterdam 165
+The Hague 155
+Utrecht 145
+Eindhoven 155
+Delft 145
+Brussels 165
+Antwerp 145
+Ghent 135
+Leuven 145
+Luxembourg City 155
+# Swiss Tech Valley
+Zurich 185
+Geneva 165
+Basel 155
+Lausanne 145
+Zug 135
+St. Gallen 125
+Lucerne 135
+Bern 145
+Winterthur 125
+# Mediterranean Tech Hubs
+Barcelona 165
+Madrid 155
+Valencia 135
+Malaga 125
+Bilbao 115
+Lisbon 155
+Porto 145
+Milan 165
+Rome 155
+Turin 145
+Florence 135
+Venice 125
+Athens 145
+Thessaloniki 125
+# Eastern European Tech Centers
+Prague 155
+Brno 135
+Warsaw 155
+Krakow 145
+Wroclaw 135
+Gdansk 125
+Budapest 145
+Vienna 155
+Bratislava 135
+Bucharest 145
+Cluj-Napoca 135
+Sofia 135
+Zagreb 125
+Ljubljana 115
+Tallinn 145
+Riga 135
+Vilnius 135
+Moscow 175
+St. Petersburg 165
+Kiev 145
+Minsk 135
+# Middle East Tech Hubs
+Tel Aviv 195
+Herzliya 175
+Ra'anana 155
+Petah Tikva 145
+Haifa 135
+Jerusalem 145
+Beer Sheva 125
+Dubai 175
+Abu Dhabi 165
+Sharjah 145
+Doha 155
+Manama 135
+Kuwait City 145
+Riyadh 165
+Jeddah 145
+Amman 135
+Cairo 145
+Alexandria 125
+# Indian Tech Hubs
+Bangalore 205
+Mumbai 185
+Delhi 175
+Noida 165
+Gurgaon 175
+Hyderabad 175
+Chennai 165
+Pune 175
+Kolkata 155
+Ahmedabad 145
+Jaipur 135
+Chandigarh 125
+Indore 125
+Coimbatore 135
+Kochi 125
+Thiruvananthapuram 115
+Bhubaneswar 125
+Nagpur 115
+Lucknow 115
+Vadodara 105
+# Chinese Tech Centers
+Beijing 215
+Shanghai 205
+Shenzhen 195
+Guangzhou 175
+Hangzhou 175
+Chengdu 165
+Wuhan 155
+Xi'an 145
+Nanjing 155
+Suzhou 145
+Tianjin 135
+Chongqing 145
+Xiamen 135
+Changsha 125
+Zhengzhou 125
+Qingdao 135
+Dalian 125
+Dongguan 135
+Foshan 125
+Hefei 135
+# East Asian Tech Hubs
+Tokyo 235
+Yokohama 175
+Kawasaki 165
+Chiba 145
+Saitama 135
+Osaka 175
+Kyoto 165
+Nagoya 155
+Fukuoka 145
+Sapporo 135
+Sendai 125
+Seoul 225
+Incheon 165
+Suwon 155
+Seongnam 145
+Daejeon 155
+Busan 145
+Daegu 135
+Taipei 175
+Hsinchu 165
+Taichung 145
+Tainan 135
+Kaohsiung 125
+Hong Kong 195
+Macau 145
+# Southeast Asian Tech Centers
+Singapore 215
+Kuala Lumpur 165
+Penang 145
+Johor Bahru 125
+Jakarta 165
+Bandung 145
+Surabaya 135
+Manila 155
+Cebu 135
+Davao 125
+Bangkok 165
+Chiang Mai 145
+Phuket 125
+Ho Chi Minh City 165
+Hanoi 155
+Da Nang 135
+# Australia & New Zealand
+Sydney 185
+Melbourne 175
+Brisbane 155
+Perth 145
+Adelaide 135
+Gold Coast 125
+Canberra 145
+Newcastle 115
+Wollongong 105
+Hobart 115
+Auckland 155
+Wellington 145
+Christchurch 135
+Hamilton NZ 115
+Dunedin 105
+# Emerging Tech Hubs - Latin America
+São Paulo 175
+Rio de Janeiro 155
+Belo Horizonte 135
+Curitiba 125
+Porto Alegre 115
+Recife 125
+Mexico City 165
+Guadalajara 155
+Monterrey 145
+Tijuana 125
+Santiago 155
+Buenos Aires 165
+Córdoba 135
+Montevideo 145
+Lima 135
+Bogotá 145
+Medellín 135
+San José CR 125
+Panama City 135

@@ -1,9 +1,7 @@
 package crawler
 
 import (
-	"crypto/rand"
 	"fmt"
-	"math/big"
 	"net/url"
 	"os"
 	"sort"
@@ -39,10 +37,11 @@ func NewCrawler() *Crawler{
 	return &Crawler{collector: c, baseUrl: "https://github.com"}
 }
 
-func (c *Crawler) CrawlUsersByLocation(location string, userChannel chan<- *models.User) {
+func (c *Crawler) CrawlUsersByLocation(location string, targetUsers int, userChannel chan<- *models.User) {
     var crawlWg sync.WaitGroup
-    var callbackWg sync.WaitGroup
     hasUsers := false
+    page := 1
+    userCount := 0
 
     c.collector = colly.NewCollector(
         colly.AllowedDomains("github.com"),
@@ -55,19 +54,22 @@ func (c *Crawler) CrawlUsersByLocation(location string, userChannel chan<- *mode
     })
 
     c.collector.OnHTML("div.Box-sc-g0xbh4-0.flszRz", func(e *colly.HTMLElement) {
+        if userCount >= targetUsers {
+            return
+        }
+
         username := e.ChildText("h3 span.Text__StyledText-sc-17v1xeu-0.hBjWst")
   
         if username != "" {
             hasUsers = true
-            callbackWg.Add(1)
             user := &models.User{
                 Username: username,
                 Location: "",
                 LanguageStats: make(map[string]float64),
             }
             userChannel <- user
-            utils.PrintUserRetrieved("%s", username)
-            callbackWg.Done()
+            userCount++
+            utils.PrintUserRetrieved("%s - %d/%d", username, userCount, targetUsers)
         }
     })
 
@@ -76,88 +78,33 @@ func (c *Crawler) CrawlUsersByLocation(location string, userChannel chan<- *mode
         crawlWg.Done()
     })
 
-    visitedPages := make(map[int]bool)
-    page := 1
-    for {
+    for userCount < targetUsers {
+        hasUsers = false
         crawlWg.Add(1)
         searchURL := fmt.Sprintf("https://github.com/search?q=location:%s&type=users&p=%d", 
             url.QueryEscape(location), page)
+        utils.PrintInfo("Searching page %d: %s", page, searchURL)
         
         err := c.collector.Visit(searchURL)
         if err != nil {
-            utils.PrintError("%v", err)
+            utils.PrintError("Error visiting page %d: %v", page, err)
             crawlWg.Done()
             break
         }
         
         crawlWg.Wait()
-
+        
         if !hasUsers {
+            utils.PrintInfo("No more users found for %s, stopping at %d/%d users", 
+                location, userCount, targetUsers)
             break
         }
-        visitedPages[page] = true
+        
         page++
+        time.Sleep(2 * time.Second)
     }
 
-    totalPages := len(visitedPages)
-    if totalPages == 0 {
-        close(userChannel)
-        return
-    }
-
-    var pagesToVisit int
-    switch {
-    case totalPages <= 5:
-        pagesToVisit = totalPages 
-    case totalPages <= 20:
-        pagesToVisit = 10
-    case totalPages <= 50:
-        pagesToVisit = 15
-    default:
-        pagesToVisit = 20 
-    }
-
-    if pagesToVisit < 3 && totalPages >= 3 {
-        pagesToVisit = 3
-    }
-
-    if pagesToVisit > totalPages {
-        pagesToVisit = totalPages
-    }
-
-    availablePages := make([]int, 0, totalPages)
-    for p := range visitedPages {
-        availablePages = append(availablePages, p)
-    }
-
-    for i := len(availablePages) - 1; i > 0; i-- {
-        max := big.NewInt(int64(i + 1))
-        randNum, err := rand.Int(rand.Reader, max)
-        if err != nil {
-            utils.PrintError("Error generating random number: %v", err)
-            continue
-        }
-        j := randNum.Int64()
-        availablePages[i], availablePages[j] = availablePages[j], availablePages[i]
-    }
-
-    for i := 0; i < pagesToVisit && i < len(availablePages); i++ {
-        crawlWg.Add(1)
-        searchURL := fmt.Sprintf("https://github.com/search?q=location:%s&type=users&p=%d", 
-            url.QueryEscape(location), availablePages[i])
-        utils.PrintInfo("Searching %s", searchURL)
-        
-        err := c.collector.Visit(searchURL)
-        if err != nil {
-            utils.PrintError("%v", err)
-            crawlWg.Done()
-            break
-        }
-        
-        crawlWg.Wait()
-    }
-
-    callbackWg.Wait()
+    utils.PrintInfo("Finished crawling %s, processed %d/%d users", location, userCount, targetUsers)
     close(userChannel)
 }
 
